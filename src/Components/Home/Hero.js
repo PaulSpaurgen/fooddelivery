@@ -9,8 +9,9 @@ export default function Hero() {
         </div>
         <div className='whatsapp'>
           <a href='https://api.whatsapp.com/send?phone=+918210501526'><button>WHATS APP</button></a>
-          <button> CALL - NOW </button>
+          <a href="tel:+918210501526"><button> CALL - NOW </button></a> 
         </div>
+
         <div className='content'>
           <h1>
             ORDER NOW ON 

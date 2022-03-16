@@ -1,0 +1,33 @@
+.Box1{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 103, 103);
+}
+.Box2{
+    display: flex;
+    width: 50%;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+ .A-Heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    height: 10vh;
+    width: 100%;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}

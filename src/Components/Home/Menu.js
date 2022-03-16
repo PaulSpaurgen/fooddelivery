@@ -1,132 +1,134 @@
 import React from 'react'
-import MuttonH from '../Assets/HandiM.jpg'
-import ChickenH from '../Assets/HandiC.jpg'
-import MuttonD from '../Assets/DehatiM.jpg'
-import ChickenD from '../Assets/DehatiC.jpg'
-import littiR   from '../Assets/LittiC.jpg'
-import FlittiS  from '../Assets/FLittiC.jpg'
-import FlittiA  from '../Assets/FAlooLittiChokha.webp'
-import P_Rotti   from '../Assets/RottiP.jpg'
-import G_Rotti   from '../Assets/GRotti.webp'
-import LittiM    from  '../Assets/Litti+Mutton.jpg'
-import LittiC    from   '../Assets/Litti+Murga.jpg'
-import RottiC    from  '../Assets/Roti+Chicken.webp'
-import RottiM    from   '../Assets/Roti+Mutton.jpg'
+import Bimg from '../Assets/bvr.jpg';
 import './Menu.css'
 
 export default function Menu() {
   return (
-    <div className='Container2'>
-      <div className='heading'><h2>Main Course</h2></div>
-        <div className='menu'>
-          <div className='dish'>
-            <img src={MuttonH} alt='mutton Handi'></img>
-            <p className='dish-name'> Mutton Handi</p>
-            <p> Price: 471/-</p>
-            <p> quantity: 250gm</p>
-            <button>Order Now</button>
+    <div className='Container'>
+      <div className='Container1'>
+        <div className='Mnu-T'><h2>Main Course</h2></div>
+        <div className='Menu'>
+          <div className='Item-M'>
+            <div className='dish-name'> Handi Mutton </div>
+            <div className='dish-price'> <strike>589/-</strike>  </div>
+            <div className='dish-quantity'> 471/- </div>
+            <a href='https://api.whatsapp.com/send?phone=+918210501526'><button>order now</button></a>
           </div>
-          <div className='dish'>
-            <img src={ChickenH} alt='Chicken Handi'></img>
-            <p className='dish-name'> Chicken Handi</p>
-            <p> Price: 296/-</p>
-            <p> quantity: 250gm</p>
-            <button>Order Now</button>
+          <div className='Item-M'>
+            <div className='dish-name'> Handi Chicken </div>
+            <div className='dish-price'> <strike>369/-</strike> </div>
+            <div className='dish-quantity'> 296/-  </div>
+            <a href='https://api.whatsapp.com/send?phone=+918210501526'><button>order now</button></a>
           </div>
-          <div className='dish'>
-            <img src={MuttonD} alt='mutton dehati'></img>
-            <p className='dish-name'> Mutton Dehati</p>
-            <p> Price: 455/-</p>
-            <p> quantity: 250gm</p>
-            <button>Order Now</button>
+          <div className='Item-M'>
+            <div className='dish-name'> Mutton Dehati </div>
+            <div className='dish-price'> <strike>569/-</strike> </div>
+            <div className='dish-quantity'> 455/- </div>
+            <a href='https://api.whatsapp.com/send?phone=+918210501526'><button>order now</button></a>
           </div>
-          <div className='dish'>
-            <img src={ChickenD} alt='Chicken dehati'></img>
-            <p className='dish-name'> Chicken Dehatii</p>
-            <p> Price: 280/-</p>
-            <p> quantity: 250gm</p>
-            <button>Order Now</button>
+          <div className='Item-M'>
+            <div className='dish-name'> Chicken Dehati </div>
+            <div className='dish-price'> <strike>349/-</strike> </div>
+            <div className='dish-quantity'> 280/-  </div>
+            <a href='https://api.whatsapp.com/send?phone=+918210501526'><button>order now</button></a>
           </div>
         </div>
-        <div className='heading'><h2>Litti Choka</h2></div>
-        <div className='menu'>
-          <div className='dish'>
-            <img src={littiR} alt='litti choka'></img>
-            <p className='dish-name'> Rosted Litti Choka (Plain)</p>
-            <p> Price: 87/- </p>
-            <p> quantity: 250gm</p>
-            <button>Order Now</button>
+        <div className='Mnu-T'><h2>Litti Chokha</h2></div>
+        <div className='Menu'>
+          <div className='Item-M'>
+            <div className='dish-name'> Roasted Litti Choka (Plain) </div>
+            <div className='dish-price'> <strike>109/-</strike> </div>
+            <div className='dish-quantity'> 87/- </div>
+            <a href='https://api.whatsapp.com/send?phone=+918210501526'><button>order now</button></a>
           </div>
-          <div className='dish'>
-            <img src={littiR} alt='litti choka'></img>
-            <p className='dish-name'> Rosted Litti Choka (Ghee)</p>
-            <p> Price: 118/- </p>
-            <p> quantity: 250gm</p>
-            <button>Order Now</button>
+          <div className='Item-M'>
+            <div className='dish-name'> Roasted Litti Choka (Plain) </div>
+            <div className='dish-price'> <strike>148/-</strike> </div>
+            <div className='dish-quantity'> 118/-  </div>
+            <a href='https://api.whatsapp.com/send?phone=+918210501526'><button>order now</button></a>
           </div>
-          <div className='dish'>
-            <img src={FlittiS} alt='Fried Litti C'></img>
-            <p className='dish-name'> Fried Sattu Litti with chutney </p>
-            <p> Price: 95/-</p>
-            <p> quantity: 250gm</p>
-            <button>Order Now</button>
+          <div className='Item-M'>
+            <div className='dish-name'> Fried sattu Litti Choka</div>
+            <div className='dish-price'> <strike>119/-</strike> </div>
+            <div className='dish-quantity'> 95/-  </div>
+            <a href='https://api.whatsapp.com/send?phone=+918210501526'><button>order now</button></a>
           </div>
-          <div className='dish'>
-            <img src={FlittiA} alt='Fried Litti C'></img>
-            <p className='dish-name'>Fried Aaloo Litti with chutney </p>
-            <p> Price:112/- </p>
-            <p> quantity: 250gm</p>
-            <button>Order Now</button>
+          <div className='Item-M'>
+            <div className='dish-name'> Fried Aaloo Litti Choka </div>
+            <div className='dish-price'><strike>139/-</strike>  </div>
+            <div className='dish-quantity'> 112/-  </div>
+            <a href='https://api.whatsapp.com/send?phone=+918210501526'><button>order now</button></a>
           </div>
         </div>
-        <div className='heading'><h2>Tawa Rotti</h2></div>
-        <div className='menu'>
-          <div className='dish'>
-            <img src={P_Rotti} alt='rotii'></img>
-            <p className='dish-name'> Roti (Plain)</p>
-            <p> Price: 8/- pc </p>
-            <p> quantity: W.R.Order</p>
-            <button>Order Now</button>
+        <div className='Mnu-T'><h2>Tawa Roti</h2></div>
+        <div className='Menu'>
+          <div className='Item-M'>
+            <div className='dish-name'> Plain Roti </div>
+            <div className='dish-price'> 8/- </div>
+            <div className='dish-quantity'> 1pc </div>
+            <a href='https://api.whatsapp.com/send?phone=+918210501526'><button>order now</button></a>
           </div>
-          <div className='dish'>
-            <img src={G_Rotti} alt='Rotti'></img>
-            <p className='dish-name'> Roti (Ghee)</p>
-            <p> Price: 11/- pc </p>
-            <p> quantity: W.R.Order</p>
-            <button>Order Now</button>
-          </div>
-        </div>
-        <div className='heading'><h2>COMBOS</h2></div>
-        <div className='menu'>
-          <div className='dish'>
-            <img src={LittiC} alt='litti choka'></img>
-            <p className='dish-name'> Murga Litti</p>
-            <p> Price: 264/- </p>
-            <p> quantity: 250gm</p>
-            <button>Order Now</button>
-          </div>
-          <div className='dish'>
-            <img src={LittiM} alt='litti choka'></img>
-            <p className='dish-name'> Litti Mutton</p>
-            <p> Price: 183/- </p>
-            <p> quantity: 250gm</p>
-            <button>Order Now</button>
-          </div>
-          <div className='dish'>
-            <img src={RottiM} alt='Fried Litti C'></img>
-            <p className='dish-name'> Roti + Mutton curry </p>
-            <p> Price: 231/-</p>
-            <p> quantity: 250gm</p>
-            <button>Order Now</button>
-          </div>
-          <div className='dish'>
-            <img src={RottiC} alt='Fried Litti C'></img>
-            <p className='dish-name'> Roti + Chicken Curry </p>
-            <p> Price:152/- </p>
-            <p> quantity: 250gm</p>
-            <button>Order Now</button>
+          <div className='Item-M'>
+            <div className='dish-name'> Ghee Roti </div>
+            <div className='dish-price'> 11/- </div>
+            <div className='dish-quantity'> 1pc </div>
+            <a href='https://api.whatsapp.com/send?phone=+918210501526'><button>order now</button></a>
           </div>
         </div>
       </div>
+      <div className='Container2'>
+        <div className='T-Info'>
+          <h2> Authentic   </h2>
+          <h2> Flavours From the   </h2>
+          <h2> Streets of Bihar At Ur Door Step </h2>
+        </div>
+        <div className='Caption'>#trynew    #forgottenflavours     #foodForLife   #HighOnStreetFood </div>
+
+
+        <div className='combo-C'>
+          <div className='Mnu-T'> <h2>COMBO OFFERS</h2></div>
+          <div className='combo'>
+            <div className='Item-N'> Litti Mutton</div>
+            <div className='dish-price'><strike>229/-</strike>  </div>
+            <div className='Item-P'> 183/-</div>
+            <a href='https://api.whatsapp.com/send?phone=+918210501526'><button>order now</button></a>
+          </div>
+          <div className='combo'>
+            <div className='Item-N'> Litti Mutton</div>
+            <div className='dish-price'><strike>229/-</strike>  </div>
+            <div className='Item-P'> 183/-</div>
+            <a href='https://api.whatsapp.com/send?phone=+918210501526'><button>order now</button></a>
+          </div>
+          <div className='combo'>
+            <div className='Item-N'> Litti Murga</div>
+            <div className='dish-price'><strike>329/-</strike>  </div>
+            <div className='Item-P'> 264/-</div>
+            <a href='https://api.whatsapp.com/send?phone=+918210501526'><button>order now</button></a>
+          </div>
+          <div className='combo'>
+            <div className='Item-N'> Roti Mutton</div>
+            <div className='dish-price'><strike>289/-</strike>  </div>
+            <div className='Item-P'> 231/-</div>
+            <a href='https://api.whatsapp.com/send?phone=+918210501526'><button>order now</button></a>
+          </div>
+          <div className='combo'>
+            <div className='Item-N'> Roti Murga</div>
+            <div className='dish-price'><strike>189/-</strike>  </div>
+            <div className='Item-P'> 152/-</div>
+            <a href='https://api.whatsapp.com/send?phone=+918210501526'><button>order now</button></a>
+          </div>
+          
+        </div>
+        <div className='BVR'>
+          <img src={Bimg} alt="back"></img>
+          <div className='cnt'>
+            <h2> BEVRAGES @ M.R.P </h2>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+
   )
 }
