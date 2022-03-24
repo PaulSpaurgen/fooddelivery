@@ -1,0 +1,51 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+.Main-B{
+    width: 100%;
+    height: 80vh;
+}
+.Main-B .Main-B1{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.Main-B .Main-B1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Main-B .Main-B2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    align-items: flex-start;
+    justify-content: center;
+    gap:2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: rgb(250, 96, 96);
+    color: aliceblue;
+    /* padding-left:20px ; */
+}
+.Main-B2 .C-H{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Main-B2 .C1{
+    margin-left: 40px;
+}
+.Main-B2 .C2{
+    margin-left: 40px;
+}

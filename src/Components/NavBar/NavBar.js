@@ -1,6 +1,6 @@
 import React from 'react'
 import './Nav.css'
-import Logo from '../Assets/Logo1.png'
+import Logo from '../Assets/Logo.jpg'
 
 export default function NavBar() {
   return (
@@ -8,10 +8,10 @@ export default function NavBar() {
       <div className='Logo'>
         <img src={Logo} alt='NameofLogo'></img>
       </div>
-      <input type='checkbox' id='click'></input>
+      {/* <input type='checkbox' id='click'></input>
       <label for='click' className='menu-btn'>
           --- 
-      </label>
+      </label> */}
       <div className='Items'>
         <ul>
           <li><a href='/'> HOME </a></li>

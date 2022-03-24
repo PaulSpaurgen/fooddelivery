@@ -16,8 +16,9 @@ input{
     display: none;
 }
 img{
-    height: 200px;
-    width: 200px;
+    object-fit:contain;
+    height: 150px;
+    width: 150px;
     padding: 10px;
     cursor: pointer;
 }
@@ -38,7 +39,7 @@ img{
 }
 .Items ul li a{
     font-family: Arial, Helvetica, sans-serif;
-    color: cadetblue;
+    color: black;
     text-decoration: none;
     letter-spacing: 1px;
     padding: 15px;
@@ -47,23 +48,41 @@ img{
     transition: all 0.3s ease;
 }
 .Items ul li :hover{
-    background-color: lightgray;
+    background-color: rgb(235, 192, 112);
 }
-@media(max-width:940px) {
+@media(max-width:360px) {
     html,body{
         margin: 0;
         padding: 0;
     }
-    .Nav .menu-btn{
+    img{
+        height: 150px;
+        width: 150px;
+        margin-left: -25px;
+        cursor: pointer;
+    }
+    /* .Nav{
+        display: none;
+    } */
+    .Items ul{
+        display: none;
+    }
+    /* .Nav .menu-btn{
         display: flex;
         flex-direction: row-reverse;
         padding-right:0 ;
     }
+    img{
+        height: 150px;
+        width: 150px;
+        padding: 10px;
+        cursor: pointer;
+    }
     .Items ul{
         position:absolute;
-        left: -100;
+        left: 0;
         top:7.5vh;
-        background-color: #111;
+        background-color: transparent;
         height: 100vh;
         width:100%;
         display: flex;
@@ -84,5 +103,5 @@ img{
     .Items ul li :hover{
         color: bisque;
         background-color: #111;
-    }
+    } */
 }
