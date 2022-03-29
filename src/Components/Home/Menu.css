@@ -150,7 +150,7 @@
 .Container2 .combo-C :hover{
     border-bottom: 1px solid rgb(255,179,71)  ;
 }
-@media (max-width:360px) {
+@media (max-width:450px)  {
     .Container{
         width: 100%;
         display: flex;
@@ -263,6 +263,7 @@
     .Container2 .combo-C .combo .Item-N{
         font-size: small;
         font-weight: bold;
+        
         letter-spacing: 0;
         font-family:Arial, Helvetica, sans-serif;
     }
